@@ -27,7 +27,6 @@ function getAllPositions() {
             result.push(pos);
         }
     }
-
     return result;
 }
 
