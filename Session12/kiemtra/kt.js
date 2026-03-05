@@ -9,6 +9,7 @@ let students = [
 const femaleStudents = students.filter((student) => student.gender === "Nữ").sort((a, b) => b.score - a.score);
 console.log(femaleStudents);
 
-let goodStudents = students.filter((student) => student.score >= 5.0).map((c) => c.name);
+let goodStudents = students.filter((student) => student.score >= 5.0).map((c) => c  .name);
 console.log(goodStudents);
 
+  
