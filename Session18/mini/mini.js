@@ -8,7 +8,7 @@ form.addEventListener("submit", function (e) {
   const code = document.getElementById("product-code").value.trim();
   const name = document.getElementById("product-name").value.trim();
   const price = document.getElementById("product-price").value.trim();
-
+ 
 
   const clone = template.content.cloneNode(true);
 
